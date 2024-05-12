@@ -1,0 +1,33 @@
+#a python calulator program
+num1 = int(input('enter first num:'))
+num2 = int(input('enter second num:'))
+opr=input('enter the type of operation you want to perform between the character:')
+if opr =='+':
+    ans=num1+num2
+    print('the final ans is : ',ans)
+elif opr == '-':
+    ans=num1-num2
+    print('the final ans is : ',ans)
+elif opr== '*':
+    ans=num1*num2
+    print('the final ans is : ',ans)
+elif opr =='/':
+    ans=num1/num2
+    print('the final ans is : ',ans)
+elif opr =='//':
+    ans=num1//num2
+    print('the final ans is : ',ans)
+elif opr == '<':
+    ans=num1<num2
+    print('the final ans is : ',ans)
+elif opr == '>':
+    ans=num1>num2
+    print('the final ans is : ',ans)
+elif  opr =='<=':
+    ans=num1<=num2
+    print('the final ans is : ',ans)
+elif opr =='>=':
+    ans=num1>=num2
+    print('the final ans is : ',ans)
+else:
+    print('invalid enter ')                         
